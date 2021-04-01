@@ -1,14 +1,12 @@
 html {
     box-sizing: border-box;
-    
+ 
 }
 
 *,
 *::after,
 *::before {
     box-sizing: inherit;
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -18,10 +16,6 @@ a {
 ul {
     margin-left: 0;
     padding-left: 0;
-}
-
-li {
-    list-style-type: none;
 }
 
 .container {
@@ -66,7 +60,6 @@ body {
 .contact__menu {
     display: flex;
     flex-direction: column;
-    
     justify-content: space-between;
 }
 
@@ -103,10 +96,6 @@ body {
     padding-bottom: 31px;
 }
 
-/*.menu__item {  
-    margin-right: 68px;
-}*/
-
 .menu__list__link {
     font-weight: 700;
     font-size: 14px;
@@ -128,12 +117,11 @@ body {
 .contact__list, .menu__list {
     display: flex;
     justify-content: space-between;
-    
-    /*flex-direction: row wrap;*/
 }
 
 .main {
-    background: url(../img/main_bgr.jpg);
+   background: url(../img/main_bgr.jpg);
+   /* position: relative;*/
 }
 
 .main__title {
@@ -150,5 +138,32 @@ body {
 .presentation__btn {
     font-weight: 400;
     color: #fff;
-    
+    background-color: #005fa3;
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    padding-top: 19px;
+    margin-bottom: 120px;
+    transition: all .5s;
+    border: 1px solid transparent;
+}
+
+.presentation__btn:hover {
+    color: #005fa3;
+    background-color: #fff;
+    border: 1px solid #005fa3;
+}
+
+.main__slider {
+   /* position: absolute;
+    top: 800;
+    left: 0;*/
+  
+}
+
+.main__slider__item {
+    background: url(../img/main_bgr.jpg) no-repeat contain center;
+    background-color: transparent;
+    width: 100vw;
 }
