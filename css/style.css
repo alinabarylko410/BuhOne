@@ -120,7 +120,7 @@ body {
 }
 
 .main {
-   background: url(../img/main_bgr.jpg);
+   background: url('../img/main_bgr.jpg');
    /* position: relative;*/
 }
 
@@ -144,7 +144,7 @@ body {
     height: 60px;
     text-align: center;
     padding-top: 19px;
-    margin-bottom: 120px;
+    margin-bottom: 230px;
     transition: all .5s;
     border: 1px solid transparent;
 }
@@ -156,14 +156,88 @@ body {
 }
 
 .main__slider {
-   /* position: absolute;
-    top: 800;
+    position: relative;
+    /*top: 800;
     left: 0;*/
   
 }
 
 .main__slider__item {
-    background: url(../img/main_bgr.jpg) no-repeat contain center;
+    background: url('../img/main_bgr.jpg') no-repeat contain center;
     background-color: transparent;
     width: 100vw;
 }
+
+.slick-dots {
+    position: absolute;
+    top: 547px;
+}
+
+.slick-dots li {
+    display: inline-block;
+}
+
+.slick-dots button {
+    font-size: 0;
+    background-color: #fff;
+    opacity: 0.4;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.slick-dots button:hover {
+    opacity: 1;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    opacity: 0.2;
+    border: none;
+    
+}
+
+
+
+.main__slider .slick-arrow {
+    position: absolute;
+    top: 497px;
+    
+}
+
+.main__slider .slick-arrow:hover {
+    opacity: 0.4;
+}
+
+.main__slider .slick-arrow.slick-prev {
+    right: 60px;
+    background-image: url('../img/arrow_prev.svg');
+}
+
+.main__slider .slick-arrow.slick-next {
+    right: 0;
+    background-image: url('../img/arrow_next.svg');
+}
+
+button.slick-prev.slick-arrow {
+    background: url('../img/arrow_prev.svg') no-repeat cover center;
+}
+
+button.slick-next.slick-arrow {
+    content: '';
+    background: url('../img/arrow_next.svg') no-repeat cover center;
+}
+
+/*.slick-prev {
+    background: url('../img/arrow_prev.svg') no-repeat cover center;
+}*/
+
+/*button[aria-label="Previous"] {
+    background: url('../img/arrow_prev.svg') no-repeat cover center;
+}*/

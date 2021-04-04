@@ -1,8 +1,9 @@
 $(function(){
 
     $('.main__slider').slick({
-        dots: true,
-        infinite: true,
+        dots: true, 
+        //nextArrow: "<img src='../img/arrow_next.svg' alt='next'>", 
+        Infinity: true,
         autoplay: true
     });
 
