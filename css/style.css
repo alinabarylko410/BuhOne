@@ -241,3 +241,53 @@ button.slick-next.slick-arrow {
 /*button[aria-label="Previous"] {
     background: url('../img/arrow_prev.svg') no-repeat cover center;
 }*/
+
+.services {
+    background-color: #ebebeb;
+}
+
+.section__title {
+    color: #bdbdbd;
+    font-size: 24px;
+    line-height: 33.12px;
+    font-weight: 900;
+    padding-top: 140px;
+    margin-bottom: 40px;
+}
+
+.section__text {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69.39px;
+    color: #333;
+}
+
+.services__text {
+    padding-bottom: 102px;
+}
+
+.services__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 110px;
+}
+
+.services__item {
+    width: 33%;
+    height: 360px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.services__item__title {
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+    font-size: 24px;
+    line-height: 30.24px;
+    color: #fff;
+    font-weight: 900;
+}
+
