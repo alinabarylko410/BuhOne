@@ -250,7 +250,10 @@ button.slick-next.slick-arrow {
     color: #bdbdbd;
     font-size: 24px;
     line-height: 33.12px;
-    font-weight: 900;
+    font-weight: 900;    
+}
+
+.services__title {
     padding-top: 140px;
     margin-bottom: 40px;
 }
@@ -309,5 +312,81 @@ button.slick-next.slick-arrow {
 
 .services__item:hover .services__item__overlay {
     display: block;
+}
+
+.about {
+    background-color: #e5e5e5;
+
+}
+
+.about__title {
+    padding-top: 140px;
+}
+
+.about__company {
+    display: flex;
+}
+
+.about__company__content {
+    width: 50%;
+}
+
+.about__text {
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+.section__text-blue {
+    color: #005fa3;
+}
+
+.about__company__items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-bottom: 110px;
+}
+
+.about__company__item {
+    width: 255px;
+    height: 255px;
+    background-color: #ebebeb;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.about__company__item:hover {
+    background-color: #005fa3;
+    color: #fff;
+} 
+
+.about__company__item:hover .about__company__item__case a {
+    color: #fff;
+}
+
+.about__company__item__num {
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 66px;
+}
+
+.about__company__item__deal {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.48px;
+    margin-top: 30px;
+    margin-bottom: 47px;
+    margin-right: 100px;
+}
+
+.about__company__item__case a {
+    color: #005fa3;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
