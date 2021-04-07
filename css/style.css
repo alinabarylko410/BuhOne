@@ -275,7 +275,7 @@ button.slick-next.slick-arrow {
 }
 
 .services__item {
-    width: 33%;
+    width: 31.6%;
     height: 360px;
     margin-bottom: 30px;
     position: relative;
@@ -286,8 +286,28 @@ button.slick-next.slick-arrow {
     left: 45px;
     bottom: 45px;
     font-size: 24px;
-    line-height: 30.24px;
-    color: #fff;
+    line-height: 30.24px;   
     font-weight: 900;
+}
+
+.services__item__title a {
+    color: #fff;
+}
+
+.services__item__overlay {
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0, 95, 163, 0.65), 
+                    rgba(0, 95, 163, 0.65)), 
+                    url('../img/buh_service.jpg');;
+	padding: 150px 0 0 76px;
+	display: none;
+}
+
+.services__item:hover .services__item__overlay {
+    display: block;
 }
 
