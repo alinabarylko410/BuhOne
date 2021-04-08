@@ -390,3 +390,21 @@ button.slick-next.slick-arrow {
     text-decoration: underline;
 }
 
+.clients {
+    background-color: #ebebeb;
+}
+
+.clients__title {
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.clients__text {
+    margin-bottom: 90px;
+
+}
+
+.clients__slider {
+    display: flex;
+}
+
