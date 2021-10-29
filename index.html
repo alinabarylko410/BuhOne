@@ -15,37 +15,45 @@
 
     <header class="header">
         <div class="container">
+            <div id="burger-menu">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
             <div class="header__inner">
                 <div class="logo">
-                    <a class="logo__image" href="#">
-                        <img class="logo__image__link" src="img/logo.svg" alt="logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__image" src="img/logo.svg" alt="logo">
                     </a>
-                    <a class="logo__text" href="#">BuhOne</a>
+                    <h1 class="logo__text">
+                        <a class="logo__text-link" href="#">BuhOne</a>
+                    </h1>
+                    
                 </div>
 
-                <div class="contact__menu">
+                <div class="header__menu">
                     <div class="contact__list">                       
                         <div class="contact__item">
-                                <img class="contact__list__image" src="img/phone.svg" alt="phone">
-                                <a class="contact__list__link contact__list__phone" href="tel:81112223344">8 (111) 222-33-44</a></div>
+                                <img class="contact__list-image" src="img/phone.svg" alt="phone">
+                                <a class="contact__list-link contact__list__phone" href="tel:80502223344">8 (050) 222-33-44</a></div>
                         <div class="contact__item">
-                                <img class="contact__list__image" src="img/clock.svg" alt="clock">
-                                <a class="contact__list__link" href="#">Пн-Пт 10:00-18:00</a></div>
+                                <img class="contact__list-image" src="img/clock.svg" alt="clock">
+                                <a class="contact__list-link" href="#">Пн-Пт 10:00-18:00</a></div>
                         <div class="contact__item">
-                                <img class="contact__list__image" src="img/mail.svg" alt="email">
-                                <a class="contact__list__link" href="#">order@buhone.ru</a></div>
+                                <img class="contact__list-image" src="img/mail.svg" alt="email">
+                                <a class="contact__list-link" href="#">order@buhone.ua</a></div>
                         <div class="contact__item">
-                                <img class="contact__list__image" src="img/place.svg" alt="place">
-                                <a class="contact__list__link" href="#">Невский пр. 130</a></div>
+                                <img class="contact__list-image" src="img/place.svg" alt="place">
+                                <a class="contact__list-link" href="#">Московский пр. 130</a></div>
                     </div>
 
                     <nav class="menu">
                         <ul class="menu__list">
-                            <li class="menu__item"><a class="menu__list__link" href="#">Главная</a></li>
-                            <li class="menu__item"><a class="menu__list__link" href="#">услуги</a></li>
-                            <li class="menu__item"><a class="menu__list__link" href="#">кейсы</a></li>
-                            <li class="menu__item"><a class="menu__list__link" href="#">о компании</a></li>
-                            <li class="menu__item"><a class="menu__list__link" href="#">контакты</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#">Главная</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#">услуги</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#">кейсы</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#">о компании</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#">контакты</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -56,26 +64,24 @@
         </div>
     </header>
 
-    <section class="main">
+    <section class="home">
         <div class="container">
-            <!--
-            <h1 class="main__title">Бухгалтерские услуги в Харькове</h1>
-            <a class="presentation__btn" href="#">Наша презентация</a>  -->          <div class="main__slider">
-            <div class="main__slider">  
-                <div class="main__slider__item">
-                    <h1 class="main__title">Бухгалтерские услуги в Харькове</h1>
+            
+            <div class="home__slider">  
+                <div class="home__slider-item">
+                    <h2 class="home__title title">Бухгалтерские услуги в Харькове</h2>
                     <a class="presentation__btn" href="#">Наша презентация</a> 
                 </div>
-                <div class="main__slider__item">
-                    <h1 class="main__title">Бухгалтерские услуги в Харькове</h1>
+                <div class="home__slider-item">
+                    <h2 class="home__title title">Бухгалтерские услуги в Харькове</h2>
                     <a class="presentation__btn" href="#">Наша презентация</a> 
                 </div>
-                <div class="main__slider__item">
-                    <h1 class="main__title">Бухгалтерские услуги в Харькове</h1>
+                <div class="home__slider-item">
+                    <h2 class="home__title title">Бухгалтерские услуги в Харькове</h2>
                     <a class="presentation__btn" href="#">Наша презентация</a> 
                 </div>
-                <div class="main__slider__item">
-                    <h1 class="main__title">Бухгалтерские услуги в Харькове</h1>
+                <div class="home__slider-item">
+                    <h2 class="home__title title">Бухгалтерские услуги в Харькове</h2>
                     <a class="presentation__btn" href="#">Наша презентация</a> 
                 </div>
             </div>
@@ -85,50 +91,50 @@
 
     <section class="services">
         <div class="container">
-            <h2 class="services__title section__title">Наши услуги</h2>
-            <p class="services__text section__text">Мы специализируемся</p>
+            <h3 class="services__title section__title">Наши услуги</h3>
+            <h2 class="services__text section__text title">Мы специализируемся</h2>
             <div class="services__content">
                 <div class="services__item active">
-                    <img class="services__item__image" src="img/buh_service.jpg" alt="buh_service">
-                    <div class="services__item__overlay"></div>
-                    <h3 class="services__item__title">
+                    <img class="services__item-image" src="img/buh_service.jpg" alt="buh_service">
+                    <div class="services__item-overlay"></div>
+                    <h4 class="services__item-title">
                         <a href="#">Бухгалтерское обслуживание</a>                        
-                    </h3>
+                    </h4>
                 </div>
                 <div class="services__item">
-                    <img class="services__item__image" src="img/buh_service.jpg" alt="buh_service">
-                    <div class="services__item__overlay"></div>
-                    <h3 class="services__item__title">
+                    <img class="services__item-image" src="img/buh_service.jpg" alt="buh_service">
+                    <div class="services__item-overlay"></div>
+                    <h4 class="services__item-title">
                         <a href="#">Бухгалтерское обслуживание</a>
-                    </h3>
+                    </h4>
                 </div>
                 <div class="services__item">
-                    <img class="services__item__image" src="img/buh_service.jpg" alt="buh_service">
-                    <div class="services__item__overlay"></div>
-                    <h3 class="services__item__title">
+                    <img class="services__item-image" src="img/buh_service.jpg" alt="buh_service">
+                    <div class="services__item-overlay"></div>
+                    <h4 class="services__item-title">
                         <a href="#">Бухгалтерское обслуживание</a>
-                    </h3>
+                    </h4>
                 </div>
                 <div class="services__item">
-                    <img class="services__item__image" src="img/buh_service.jpg" alt="buh_service">
-                    <div class="services__item__overlay"></div>
-                    <h3 class="services__item__title">
+                    <img class="services__item-image" src="img/buh_service.jpg" alt="buh_service">
+                    <div class="services__item-overlay"></div>
+                    <h4 class="services__item-title">
                         <a href="#">Бухгалтерское обслуживание</a>
-                    </h3>
+                    </h4>
                 </div>
                 <div class="services__item">
-                    <img class="services__item__image" src="img/buh_service.jpg" alt="buh_service">
-                    <div class="services__item__overlay"></div>
-                    <h3 class="services__item__title">
+                    <img class="services__item-image" src="img/buh_service.jpg" alt="buh_service">
+                    <div class="services__item-overlay"></div>
+                    <h4 class="services__item-title">
                         <a href="#">Бухгалтерское обслуживание</a>
-                    </h3>
+                    </h4>
                 </div>
                 <div class="services__item">
-                    <img class="services__item__image" src="img/buh_service.jpg" alt="buh_service">
-                    <div class="services__item__overlay"></div>
-                    <h3 class="services__item__title">
+                    <img class="services__item-image" src="img/buh_service.jpg" alt="buh_service">
+                    <div class="services__item-overlay"></div>
+                    <h4 class="services__item-title">
                         <a href="#">Бухгалтерское обслуживание</a>
-                    </h3>
+                    </h4>
                 </div>
             </div>    
         </div>
@@ -136,16 +142,16 @@
 
     <section class="about">
         <div class="container">
-            <h2 class="about__title section__title">О нас</h2>
+            <h3 class="about__title section__title">О нас</h3>
             <div class="about__company">
-                <div class="about__company__content">
-                    <p class="about__text section__text">Компания <span class="section__text-blue">ИвановПром</span>
-                    </p>
+                <div class="about__content">
+                    <h2 class="about__text section__text title">Компания <span class="section__text-blue">ИвановПром</span>
+                    </h2>
                     <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
                     </p>
                 </div>
-                <div class="about__company__items">
-                    <div class="about__company__item">
+                <div class="about__company-items">
+                    <div class="about__company-item">
                         <div class="about__company__item__num">90</div>
                         <div class="about__company__item__deal">Завершено
                             крупных сделок</div>
@@ -153,7 +159,7 @@
                             <a href="#">Все кейсы</a>
                         </div>        
                     </div>
-                    <div class="about__company__item">
+                    <div class="about__company-item">
                         <div class="about__company__item__num">90</div>
                         <div class="about__company__item__deal">Завершено
                             крупных сделок</div>
@@ -161,7 +167,7 @@
                             <a href="#">Все кейсы</a>
                         </div>     
                     </div>
-                    <div class="about__company__item">
+                    <div class="about__company-item">
                         <div class="about__company__item__num">90</div>
                         <div class="about__company__item__deal">Завершено
                             крупных сделок</div>
@@ -169,7 +175,7 @@
                             <a href="#">Все кейсы</a>
                         </div>     
                     </div>
-                    <div class="about__company__item">
+                    <div class="about__company-item">
                         <div class="about__company__item__num">90</div>
                         <div class="about__company__item__deal">Завершено
                             крупных сделок</div>
@@ -184,8 +190,8 @@
 
     <section class="clients">
         <div class="container">
-            <h2 class="clients__title section__title">Наши клиенты</h2>
-            <p class="clients__text section__text">С нами работают</p>
+            <h3 class="clients__title section__title">Наши клиенты</h3>
+            <h2 class="clients__text section__text title">С нами работают</h2>
             <div class="clients__slider">
                 <div class="clients__slider-item">
                     <a class="clients-link" href="#">
@@ -231,6 +237,116 @@
             </div>
         </div>
     </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h3 class="reviews__title section__title">Отзывы</h3>
+            <h2 class="reviews__text section__text title">Ваши благодарности</h2>
+            <div class="reviews__slider">
+                <div class="reviews__slider-item">
+                    <div class="reviews__content">
+                        <p class="reviews__description"><span>Lorem Ipsum</span> - это текст-"рыба", часто используемый в печати и вэб-дизайне. <span>Lorem Ipsum</span> является стандартной "рыбой" для текстов на латинице с начала <span>XVI</span> века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя <span>Lorem Ipsum</span> для распечатки образцов. <span>Lorem Ipsum</span> - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                        <div class="reviews__client">
+                            <img class="reviews__client-photo" src="img/client_photo.png" alt="client_photo">
+                            <div class="reviews__client-desctiption">
+                                <div class="reviews__client-name">Екатерина Иванова</div>
+                                <div class="reviews__client-info">Директор ООО “Раз-два”</div>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+                <div class="reviews__slider-item">
+                    <div class="reviews__content">
+                        <p class="reviews__description"><span>Lorem Ipsum</span> - это текст-"рыба", часто используемый в печати и вэб-дизайне. <span>Lorem Ipsum</span> является стандартной "рыбой" для текстов на латинице с начала <span>XVI</span> века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя <span>Lorem Ipsum</span> для распечатки образцов. <span>Lorem Ipsum</span> - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                        <div class="reviews__client">
+                            <img class="reviews__client-photo" src="img/client_photo.png" alt="client_photo">
+                            <div class="reviews__client-desctiption">
+                                <div class="reviews__client-name">Екатерина Иванова</div>
+                                <div class="reviews__client-info">Директор ООО “Раз-два”</div>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+                <div class="reviews__slider-item">
+                    <div class="reviews__content">
+                        <p class="reviews__description"><span>Lorem Ipsum</span> - это текст-"рыба", часто используемый в печати и вэб-дизайне. <span>Lorem Ipsum</span> является стандартной "рыбой" для текстов на латинице с начала <span>XVI</span> века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя <span>Lorem Ipsum</span> для распечатки образцов. <span>Lorem Ipsum</span> - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                        <div class="reviews__client">
+                            <img class="reviews__client-photo" src="img/client_photo.png" alt="client_photo">
+                            <div class="reviews__client-desctiption">
+                                <div class="reviews__client-name">Екатерина Иванова</div>
+                                <div class="reviews__client-info">Директор ООО “Раз-два”</div>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+                <div class="reviews__slider-item">
+                    <div class="reviews__content">
+                        <p class="reviews__description"><span>Lorem Ipsum</span> - это текст-"рыба", часто используемый в печати и вэб-дизайне. <span>Lorem Ipsum</span> является стандартной "рыбой" для текстов на латинице с начала <span>XVI</span> века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя <span>Lorem Ipsum</span> для распечатки образцов. <span>Lorem Ipsum</span> - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                        <div class="reviews__client">
+                            <img class="reviews__client-photo" src="img/client_photo.png" alt="client_photo">
+                            <div class="reviews__client-desctiption">
+                                <div class="reviews__client-name">Екатерина Иванова</div>
+                                <div class="reviews__client-info">Директор ООО “Раз-два”</div>
+                            </div>
+                        </div>               
+                    </div>
+                </div>                       
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="container">
+            <div class="contact-us__inner">
+                <div class="contact-us__contacts">
+                    <h2 class="contact-us__text section__text title">
+                        Связь с нами
+                    </h2>
+                    <p class="contact-us__questions">
+                        У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!
+                    </p>
+                    <div class="contact-us__ways">
+                        <div class="contact-us__phone">
+                            <img class="contact-us__phone-image" src="img/tel.svg" alt="phone-image">
+                            <a class="contact-us__phone-link" href="tel:380502223344">+38 (050) 222-33-44</a>
+                        </div>
+                        <div class="contact-us__email">
+                            <img class="contact-us__email-image" src="img/letter.svg" alt="">
+                            <a class="contact-us__email-link" href="mailto:order@buhone.ua">order@buhone.ua</a>
+                        </div>
+                    </div>
+                </div>
+                <form action="#" class="form">
+
+                    <div class="form__group form__group-1">
+                        <input class="form__input" placeholder=" ">
+                        <label class="form__input-label">Имя</label>
+                    </div>
+                    <div class="form__group">
+                        <input class="form__input" placeholder=" ">
+                        <label class="form__input-label">Фамилия</label>
+                    </div>   
+                    
+                    
+                    <div class="form__group-area">
+                        <textarea class="form__textarea" placeholder=" "></textarea>
+                        <label class="form__textarea-label">Сообщение</label>
+                    </div>                                  
+                    
+                    <button class="form__button" type="submit">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p class="footer__rights">2019 (с) Все права защищены. БухОне.ру</p>
+                <p class="footer__dewelopers">Разработано: BuhOne</p>
+            </div>
+        </div>
+    </footer>
 
         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
